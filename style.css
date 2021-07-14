@@ -1,0 +1,167 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    background-color:navy;
+}
+.section-title{
+     width: 509px;
+    height: 206px; 
+    font-size: 64px;
+    color: white;
+    margin-top: 153px;
+     margin-left: 132px; 
+    margin-bottom: 100px;
+}
+.link-button{
+    margin-left: 125px;
+    
+    text-decoration: none;
+    border: 2px solid #E02C6D;
+     width: 100px;
+    height: 100px; 
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 24px 10px 24px;
+    transition: background-color 2s ease-in-out 0s;
+}
+.link-button:hover{
+    background-color: yellowgreen;
+}
+.section-img{
+   
+    margin-top: 107px;
+     margin-bottom: 132px;
+    padding-left: 77px;
+    padding-right: 163px;
+    padding-bottom: 18;
+    padding-top: 28px;
+    
+}
+.section-img img{
+    height: 438px;
+    width: 628px;
+}
+
+
+.players{
+    margin-top: 70px;
+    margin-right: 180px;
+    margin-left:210px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+   
+}
+.player-info h2{
+    font-size: 28px;
+}
+.player{
+    height: 474px;
+    width: 330px;
+    border: 2px solid whitesmoke;
+    padding: 15px;
+}
+.about{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+.player-img img{
+    height: 271px;
+    width: 319px;
+    
+}
+.about{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+
+.photo-album{
+    display: flex;
+    justify-content: center;
+}
+ 
+   .photo-frame{
+       width: 300px;
+       height: 200px;
+       border: 2px solid royalblue;
+       border-radius: 10px;
+       position: relative;
+       margin-top: 150px;
+       margin-left: 150px;
+      
+
+   }
+   .photo-frame:hover .photo-detail{
+       display: block;
+       background-color: rgba(135, 207, 235, 0.664);
+       
+   }
+   .photo img{
+       width: 100%;
+       border-radius: 10px;
+      
+   }
+   .photo-detail{
+       position: absolute;
+       width: 300px;
+       top: 0;
+       display: none;
+   }
+   .photo-detail h3{
+       background-color: yellow;
+      
+   }
+   .photo-detail p{
+       font-size: 12px;
+      
+   }
+
+   .footer-logo img{
+       width: 483px;
+       height: 101px;
+   }
+   .fab fa{
+       font-size: 14px;
+       text-align: center;
+   }
+   
+ 
+   .footer-logo{
+       display: flex;
+       justify-content: center;
+       margin-top: 172px;
+   }
+   .center{
+       text-align: center;
+       width: 100%;
+   }
+   .fa-instagram{
+       color: palevioletred;
+   }
+   .fa-twitter-square{
+       color: skyblue;
+   }
+   .fa-facebook-f{
+       color: blue;
+   }
+   .fa-youtube-square{
+       color: red;
+   }
+   .center i{
+       width: 32px;
+       height: 32px;
+ }  
+ .Copyright-footer{
+     text-align: center;
+ } 
+   
+     /* Media Query */
+    
+     /* Mobile divices */
+    
