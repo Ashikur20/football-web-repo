@@ -164,4 +164,17 @@ body{
      /* Media Query */
     
      /* Mobile divices */
-    
+    @media only screen and (max-width:688px){
+        .container, .heading{
+            width: 100%;
+        }
+        .players{
+            grid-template-columns: repeat(1,1fr);
+        }
+        .photo-album{
+            flex-direction: column;
+        }
+        .flexible-container .footer-logo{
+            width: 260px;
+        }
+    }
